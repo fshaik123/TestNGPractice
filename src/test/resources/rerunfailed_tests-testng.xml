@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" parallel="tests">
+    <test name="Test">
+        <classes>
+            <class name="com.testng.rerunfailedtests.RunFailedTestCases1"/>
+            <class name="com.testng.rerunfailedtests.RunFailedTestCases2"/>
+            <class name="com.testng.rerunfailedtests.FailTestRunner"/>
+        </classes>
+    </test>
+</suite>

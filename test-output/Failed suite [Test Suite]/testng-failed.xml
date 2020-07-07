@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Test Suite]">
-  <test parallel="tests" name="Test(failed)">
+<suite parallel="tests" name="Failed suite [Failed suite [Test Suite]]">
+  <test parallel="tests" name="Test(failed)(failed)">
     <classes>
       <class name="com.testng.rerunfailedtests.RunFailedTestCases2">
         <methods>
           <include name="testCase4"/>
         </methods>
       </class> <!-- com.testng.rerunfailedtests.RunFailedTestCases2 -->
-      <class name="com.testng.rerunfailedtests.FailTestRunner">
-        <methods>
-          <include name="runFailedTests"/>
-        </methods>
-      </class> <!-- com.testng.rerunfailedtests.FailTestRunner -->
       <class name="com.testng.rerunfailedtests.RunFailedTestCases1">
         <methods>
           <include name="testCase2"/>
         </methods>
       </class> <!-- com.testng.rerunfailedtests.RunFailedTestCases1 -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Test Suite] -->
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Test Suite]] -->
