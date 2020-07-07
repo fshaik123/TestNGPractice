@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]">
+  <test name="TestNGFrameworkPractice(failed)">
+    <classes>
+      <class name="com.testng.practice.DataProvider_OrangeHRMTest">
+        <methods>
+          <include name="login" invocation-numbers="2"/>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.testng.practice.DataProvider_OrangeHRMTest -->
+    </classes>
+  </test> <!-- TestNGFrameworkPractice(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
